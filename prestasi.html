@@ -1,66 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nabila Febry Hashifa</title>
+  <title>Riwayat Prestasi - Nabila Febry Hashifa</title>
   <link rel="stylesheet" href="mingyu.css">
+  <style>
+    body {
+      background: linear-gradient(135deg, #ffc1cc, #ffd6e0, #ffe6f2);
+      font-family: "Nunito", sans-serif;
+      color: #333;
+      margin: 0;
+      padding: 30px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: #fff;
+      border-radius: 15px;
+      padding: 30px;
+      box-shadow: 0 5px 15px rgba(255, 105, 180, 0.3);
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    h1 {
+      text-align: center;
+      color: #ff4d94;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      color: #ff69b4;
+      border-bottom: 2px solid #ffcce0;
+      padding-bottom: 5px;
+    }
+
+    ol {
+      margin-left: 20px;
+      margin-bottom: 25px;
+      line-height: 1.6;
+    }
+
+    /* Tombol Kembali */
+    .back-btn {
+      display: inline-block;
+      background-color: #ff80bf;
+      color: white;
+      text-decoration: none;
+      padding: 10px 18px;
+      border-radius: 25px;
+      font-weight: bold;
+      transition: all 0.3s ease;
+      box-shadow: 0 3px 10px rgba(255, 105, 180, 0.4);
+      margin-bottom: 25px;
+    }
+
+    .back-btn:hover {
+      background-color: #ff4da6;
+      transform: scale(1.05);
+      box-shadow: 0 4px 12px rgba(255, 80, 160, 0.5);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <h1>Welcome to My Profile💕</h1>
-    <nav>
-      <a href="#home">Home</a>
-      <a href="#about">About Me</a>
-      <a href="#education">Education</a>
-      <a href="#contact">Contact</a>
-      <a href="prestasi.html.txt" target="_blank">Achievements</a>
-    </nav>
-  </header>
+  <div class="container">
+    <!-- Tombol Kembali -->
+    <a href="index.html" class="back-btn">⬅️ Kembali ke Profil</a>
 
-  <section id="home" class="card fade-in">
-    <h2>🏠 Home</h2>
-    <div class="content">
-    <img src="nabila.jpg.jpeg" alt="Nabila Febry Hashifa" class="profile-pic" >
-    <p> Hi! Saya <b>Nabila Febry Hashifa</b> — Welcome to my profile! 
-    Yuk kenalan lebih jauh~ ✨</p>
-    </div>
-  </section>
+    <h1>🏅 Riwayat Prestasi Nabila Febry Hashifa</h1>
 
-  <section id="about" class="card fade-in">
-    <h2>🌷 About Me</h2>
-    <p>Nama saya <b>Nabila Febry Hashifa</b>, seorang siswi yang suka hal-hal kreatif dan penuh warna! 🎨  
-    Saya suka mendesain, menulis, dan belajar hal baru setiap hari.</p>
-  </section>
+    <h2>Tingkat SMA (SMA Negeri 10 Samarinda)</h2>
+    <ol>
+      <li>Panitia dekorasi HUT SMARIDASA (2024/2025)</li>
+      <li>Juara Harapan 1 Lomba Kombinatorika dan Kalkulus, FMIPA UNMUL (2025)</li>
+</ol>
 
-  <section id="education" class="card fade-in">
-    <h2>🎓 Educational Background</h2>
-    <ul>
-      <li>
-        <b>SDN 021 Sungai Kunjang Samarinda</b><br>
-      </li>
-      <li>
-        <b>SMPN 10 Samarinda</b><br>
-      </li>
-      <li>
-        <b>SMAN 10 Samarinda</b><br>
-        <p>📍 Lokasi:</p>
-        <iframe src="https://maps.app.goo.gl/819PcjCXUEMh71817?g_st=ic"
-          width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-      </li>
-    </ul>
-  </section>
+    <h2>Tingkat SMP (SMP Negeri 10 Samarinda)</h2>
+    <ol>
+      <li>Peraih Peringkat 5 Prestasi Akademik (2024)</li>
+      <li>Peringkat 7 Olimpiade Matematika Berbasis Online, Science Generation Indonesia (2023)</li>
+      <li>Juara 2 Lomba Melukis Poster Hari Air Sedunia (Tingkat Sekolah, 2023)</li>
+      <li>Peraih Medali Emas Olimpiade IPA Berbasis Online (Event Cerdas, 2022)</li>
+      <li>Peraih Peringkat Emas Olimpiade Matematika Nasional, Ayo Sinergi Kreatif (2021)</li>
+      <li>Peraih Medali Perak Math Competition Nasional, CV. Divya Cahaya Prestasi (2021)</li>
+    </ol>
 
-  <section id="contact" class="card fade-in">
-    <h2>💌 Contact Me</h2>
-    <p>📧 Gmail: <a href="mailto:hshfanabila@gmail.com">hshfanabila@gmail.com</a></p>
-    <p>📸 Instagram: <a href="https://instagram.com/_hashifaa" target="_blank">@_hashifaa</a></p>
-    <p>💬 WhatsApp: <a href="https://wa.me/6285248516440" target="_blank">Chat Me Here!</a></p>
-  </section>
-
-  <footer>
-    <p>💗 Terima kasih sudah berkunjung ke profilku 💗</p>
-  </footer>
+    <h2>Tingkat SD (SD Negeri 021 Samarinda)</h2>
+    <ol>
+      <li>Juara 1 Tryout Online Tingkat Kota Samarinda (2019)</li>
+      <li>Ranking 4 Tryout PAS 1 Tingkat Kota Samarinda (2019/2020)</li>
+      <li>Peserta Lomba Mewarnai Faber Castell Tingkat Kota Samarinda (2018)</li>
+      <li>Juara 1 Lomba Mewarnai Tingkat Sekolah (2018)</li>
+      <li>Terpilih Menjadi Dokter Cilik Sekolah (2017/2018)</li>
+      <li>Juara 1 Favorit Lomba Mewarnai Tingkat Sekolah (2017)</li>
+    </ol>
+  </div>
 </body>
-
 </html>
