@@ -1,0 +1,217 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(180deg, #ffe4ec, #ffd6eb, #ffc1d3, #ffb6c1);
+  margin: 0;
+  padding: 0;
+  color: #4a0048;
+  scroll-behavior: smooth;
+  transition: background 1s ease-in-out;
+}
+
+header {
+  background-color: #ff8fab;
+  color: white;
+  text-align: center;
+  padding: 25px 10px;
+  border-bottom: 5px solid #ff5c8d;
+  border-radius: 0 0 25px 25px;
+  box-shadow: 0 4px 8px rgba(255, 92, 141, 0.3);
+  animation: fadeDown 1s ease;
+}
+
+::content {
+    margin: top 60px;
+}
+
+    .profile-pic {
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        object-fit: cover;
+        border:4px solid #ff8fab;
+        margin-bottom: 20px;
+    }
+
+@keyframes fadeDown {
+  from { transform: translateY(-20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #fff0f6;
+  text-shadow: 0 0 10px #fff;
+  transform: scale(1.1);
+}
+
+.card {
+  background-color: #fff0f6;
+  margin: 30px auto;
+  padding: 25px;
+  max-width: 700px;
+  border-radius: 25px;
+  box-shadow: 0 0 15px rgba(255, 105, 180, 0.3);
+  border: 2px solid #ffc1d3;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 25px rgba(255, 150, 200, 0.6);
+}
+
+.card h2 {
+  color: #ff5c8d;
+  text-shadow: 0 0 5px #ffcce0;
+}
+
+.card img {
+  width: 60px;
+  margin: 10px 0;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 10px 0;
+  box-shadow: 0 0 20px #ff9ec4;
+  border: 4px solid #ffe6f2;
+  animation: glow 3s infinite alternate;
+}
+
+@keyframes glow {
+  from { box-shadow: 0 0 10px #ffb6c1; }
+  to { box-shadow: 0 0 25px #ff69b4; }
+}
+
+ul {
+  list-style-type: "💗 ";
+  line-height: 1.8;
+}
+
+a {
+  color: #ff5c8d;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #ff2f72;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #ff8fab;
+  color: white;
+  border-top: 5px solid #ff5c8d;
+  border-radius: 25px 25px 0 0;
+  box-shadow: 0 -4px 8px rgba(255, 105, 180, 0.3);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(180deg, #ffe4ec, #ffd6eb, #ffc1d3, #ffb6c1);
+  margin: 0;
+  padding: 0;
+  color: #4a0048;
+  scroll-behavior: smooth;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px;
+  background: #ff8fab;
+  color: white;
+  border-bottom: 5px solid #ff5c8d;
+  border-radius: 0 0 25px 25px;
+  box-shadow: 0 4px 10px rgba(255, 105, 180, 0.4);
+  animation: fadeDown 1s ease;
+}
+
+@keyframes fadeDown {
+  from { opacity: 0; transform: translateY(-30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.card {
+  background: #fff0f6;
+  padding: 25px 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(255, 150, 200, 0.4);
+  margin-bottom: 30px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 2px solid #ffc1d3;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 25px rgba(255, 100, 170, 0.6);
+}
+
+.card h2 {
+  color: #ff5c8d;
+  margin-bottom: 15px;
+}
+
+ol {
+  line-height: 1.8;
+  padding-left: 20px;
+}
+
+footer {
+  text-align: center;
+  background-color: #ff8fab;
+  color: white;
+  padding: 25px;
+  border-top: 5px solid #ff5c8d;
+  border-radius: 25px 25px 0 0;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  background: #ff5c8d;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #ff2f72;
+}
